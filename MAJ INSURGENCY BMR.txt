@@ -1,0 +1,598 @@
+MAJ V14 
+Correction Drone sentinel missil AR
+Sur le freedom 2 avions furtif : 1 armée de bombe sous munition plus GBU et 1 que GBU
+Maintenant l'ouverture parachute et manuel
+Les caches sont destructibles par GBU AT 
+Véhicule abandonné 1 heure
+
+MAJ V17
+
+Réglage paramètre désactiver marker plus logistique 
+Supression de la touche H
+
+MAJ V19
+
+Somoke gaz désactiver
+Réglage du dépope AI sur 10 min
+
+MAJ V20 
+
+Réglage dépope AI sur 15 min
+Amélioration de la base opfor
+tour électrique remplacer par un transformateur et les dégâts du super dragon sont pris en compte
+arsenal opfor sur le bunker
+Changement des tenues de spawn pour OPFOR
+
+MAJ V22
+
+Rajout du script Augmentation
+
+MAJ V25
+
+Correction des IA de défence base 
+Changement de détection d' OPFOR dans la base par un visuel de blufor et non par présence
+Rajout du script loadout transfert
+Amélioration de la base
+
+MAJ 26
+
+Rajout de bateaux au porte avion
+
+MAJ 27
+
+Rajout mod loadout transfert
+Activer l'arsenal ace sur la caisse de munition
+Désactivation des scripts médic et sapeur et TL
+Rajout du pick up force spécial
+
+MAJ V 28
+
+
+tenu TL
+
+
+MAJ 29
+
+A supprimer l'arsenal sur les mhqs au respawn
+correction code (il manquait un ";")
+mhq 1 et 2 respawn avec configuration véhicule FS plus leurs inventaires vide !
+
+MAJ 30
+
+Rajout du Liberty pour une mission à mettre en place pour plutard 
+Amélioration de la base avec 2 cheetas
+2 drônes hélicops 1 équipé de 2 X panier rocket HE et 2 X HOT 2MP: Anti-Infantry. Contains 1000 steel balls that scatter on impact. Also contains a chemical incendiary device which has a kill radius of around 20 meters. Able to penetrate around 350mm RHA. Max range is 4000 meters. HE
+Et l'autre équipé de 2 X panier rocket avec 2 X HOT 3: Able to penetrate around 1250mm RHA. Max range is 4300 meters. Tandem HEAT
+2 drônes logistiques (mais ils ne respawnent pas avec l'inventaire initiale impossible de le faire fonctionner)
+rajouts de largage de caisse de munition toute les 15 minutes , tu peux te faire livrer une mitraillette et c'est illimité
+Supression du script reward tank !!!
+
+MAJ 31 
+Correction script extraction rajout de la variable manquante dans l'init du player 
+Correction script tawvd qui posé un temps de chargment plus long, voir l'écran noir quand t on voulait rejoindre la partie déjà commencer.
+
+MAJ 32
+
+Modification des unités par ton mod ARM (LREM) 
+Et mise en place des unités dans le USS LIBERTY 007
+
+Partie FEEDBACK
+
+_ il manque des sapeurs LREM !!!
+
+MAJ 35
+Rajout d'alarme sur le bateau des ARM pour donner l'alerte. Permet d'avoir un message via le chat comme quoi le SHIP HQ se fait attaquer et ainsi le défendre.
+Suppression de l'intro ( héhé )
+
+Feedback mod ARM : RAS (pour l'instant ;-) )
+
+MAJ 36
+
+Rajout du script de téléportation du bunker au bateau avec condition que si l'Amiral est mort alors l'option de tépé est désactivé.
+Rajout du HMS Proteus pour pouvoir embarquer dans : RHIB ou sous SDV avec option de téléportation.
+Changement de la couleur de la somke extraction par jaune
+Changement de la fumigène gazeuse de yellow à green
+Rajout de nouvelles ammocaches
+Rajout des preset RPIMA
+Il est maintenant possible de se faire parachuter des caisses de munitions pour blufor
+Rajout des class names des pickup RPIMA dans le script VehAugmentation
+Désactivation du script vehcletextureglobal à tester
+Minimum du halo jump est de 2000 mètres
+Supression du marker revive
+Modification de paramètre:
+Enemy infantry probability de 75 % à 50 %
+Nombre de zone active en simulatané de 30 à 90
+Rajout d'une petit intro le temps de charger la mission
+Pour la catégorie blindé chez les ARM un pandur
+Augmentation de VL qui spawn dans les villes et armes statiques aussi
+Suppression d'armes statiques basses ( c'est pour les nains )
+Diminution de blindé qui spawn dans les villes
+Diminution des bateaux
+
+MAJ 37
+
+FIX bug d'une variable appeler ( marker revive )
+Désactivation du message de kill par à distance de .
+Désactivation du script BTK/Cargo
+FIX bug spawn véhicule script EOS
+Réorganisation des avions de chiasses sur le porte avions
+Rajout des conténaires de munitions
+Rajout d'un UH80 sur le porte avion
+Module largage de munition FIXED
+Suppression de la simulation des cibles
+Rajout d'un point d'appuis pour visé les cibles
+Rajout d'une commande pour que les tanks de défence base ne bouge pas
+
+MAJ 38
+
+Rajouter des téléphones (IED) dans l'ammocacheplayer
+Rajout des polaris RPIMA
+Rajout des choppers RPIMA
+Remplacement du drapeau Halo jump par un hélicop
+Rajout du drone RQ-4
+Rajout des modules largages de caisses de munitions pour tous à tester !?
+
+Remarque: pas de RHIB RPIMA ?
+
+MAJ 39
+
+Changement de la tour de communication
+Changement de l'épave de la mission du pilot
+Rajout d'une prison
+Rajout la possibilité de téléportation pour opfor dans SDV ou RHIB
+Rajout AmmoCachePlayer à le Port
+
+MAJ 40
+
+De 90 à 75 villes peut spawnaient en simultaner
+Supression des armes statiques low .50	
+
+MAJ 41
+
+Somke gaz orange
+
+MAJ 43
+
+FIXED respawn crew drône
+Caisse Ammo véhicule permet de réparer aussi les véhicules avec le ACE
+_ Revue des respawns des véhicules:
+	Rhino MGS ne respawn pas
+	Bobcat, truck ammo, repair , fuel : 15 minutes avant respawn
+	MH6 15 minutes avant respawn
+	AH6, Commanche, Wedcat  60 minutes avant respawn
+	V44, UH80 et chinook 15 minutes avant respawn
+	Tous drônes détruit mettront 15 minutes avant respawn
+	Tous avions de chasse détruit mettront 1 heure pour respawn
+	Toutes défenses détruite de la base mettront 1 heure pour respawn !
+Baisse des véhicules indep dans les villes à cause des destructions au spawn
+Revue à la hausse le nombre des civiles dans les villes
+Amélioration des IED's, ils n'explosent plus par le scirpt mais bien en utilisant le ACE (plus joli et instantané). 
+Amélioration de la base avec le rajout de tours de guets garder par des unités pouvent donner l'alerte via une sirène
+Réorganisation du dock avec vie civil **
+Le KA60 sur le destroyer est maintenant équipé d'un double canon de 20 mm
+Rajout d'une ammocacheplayer dans la rivière
+Rajout d'une ammocacheplayer dans la vieille base
+Rajout des bateaux et des voitures civil vide sur toute la carte avec propabilité de présence élevé !
+Rajout des lumières dans la prison et les tours de guets
+Normalement les unités postées en défence dans le destroyer ne devraient plus être impacter par les scripts AI
+Amélioration du script suicide bomber ++
+
+MAJ 44
+
+Correction : l'uav spawn de nouveau
+Correction : L'officier est replacé correctement pour l'interpellation
+MAJ du script TAWVD maintenant il est possible de passé par le menu ACE pour accéder aux paramètres avancés de distance de vue
+
+MAJ 45
+
+Amélioration de l'arsenal des insurgés avec possibilités de pouvoir s'habillés en civil
+Plus grande diverscités des civils , apparament l'éditeur était uni-racial ! ( ça ce dit ?)
+Amélioration des patrouilles de civils , possibilité de voir des trucks fuels, ambulances et pickups répa.
+
+MAJ 48 
+
+désactivation du script taw
+
+MAJ 49 
+
+Déclencheur de la condition de l'officier lus en serveur
+Rajout de bateau civil au port
+Désactivation de respawn armes statiques
+miroir pylon activé sur certain drônes
+Réaparistion forcée activé sur tout les véhicules de lla base de l'île
+Diminution du nombre de civil en ville
+Revue des lignes de commandes de pylon falqon
+Drône falqon fixed sur son armement
+Drône falqon équipé d'agm
+
+MAJ 50
+
+Revue de la condition d'activation du déclancheur de l'officier ( peut être que le problème venait d'ici)
+
+MAJ 51 
+
+Debug de la postion de téléportation de l'officier
+
+MAJ 52 
+
+Désactivation OPFOR_NVG dans init.server
+Tenue et inventaire par défaut des Opfor passant par un script
+
+MAJ 53
+
+Désactivation de la commande restore loadout dans INS_common_fncs
+
+MAJ 55
+
+Supression de la ligne de commande (disable " FSM") dans init de l'unité de l'amiral
+
+MAJ 57
+
+Réactivation de la commande dans l'init de l'unité de l'amiral (Disable AI "FSM")
+Rajout de SDV et RHIB indep sur la fregate avec l'ascenceur
+Désactivation de loadout par défaut et modification du slot tireur d'élite FIA qui remplace l'opérateur drône opfor
+Réactivation de la commande fn_civVehTextureGlobal
+Réactivation de Opfor_NVG dans init.server 
+Désactivation des commandes qui rajoutent les nvg aux indep's dans server_fncs
+Maintenant la condition de désactivation de téléporatation à l'Amiral se fait soit par sa mort ou bien son absence de sa zone de départ ! Donc soit capturer et extraire ou soit le tuer !
+
+MAJ 58 
+
+Désactivation des lignes de commandes (L 83/84) dans unattended_maintenance
+
+MAJ 59 
+
+Désactivation complète du script fn_civVehTextureGlobal
+Rajout de faux IED's
+Revue des lignes de commandes dans client_fncs sur intro
+Désactivation de l'accès de l'arsenal dans loadouttransfert juste le transfert est autorisé
+Rajout de la classname "RPIMA_engineer" dans INS_definitions permmettant d'activer le script de dédection de mine
+
+MAJ 60
+
+Suppression des modules respawn sur les bardelas donnant des véhicules vides
+Rajout de barbelés sur les grillages de la prison pour empêcher l'enjamblement 
+Rajout de pierre pour cacher la base opfor
+
+MAJ 61
+
+Supression des drônes plus leurs modules respawn
+Réactivation de l'intro dans \INSfncs\client\client_fncs et \INSfncs\commom\commom_fncs
+Réactivation restore loadout à la ligne de C 142 à 145 dans \INSfncs\commom\commom_fncs
+Réactivation de véhicle reward dans init_player 
+Désactivation de la ligne 285 call compile preprocessFile "INSui\UI\HUD.sqf"; dans init
+
+dans description:
+
+Désactivation des lignes: 
+//#include "JWC_CASFS\casDefine.hpp"
+//#include "JWC_CASFS\casMenu.hpp"
+//#include "taw_vd\GUI.h"
+//#include "INSui\Jig_Defines.hpp"
+//#include "INSui\Jig_Dialogs.hpp"
+//#include "INSui\UI\defines.hpp"
+//#include "ASORVS\menu.hpp"
+//#include "ASORVS\cfgfunctions.hpp"
+désactivation de class bmr_intro
+
+
+désactivation de ligne 238 et 239 INS_end_msg dans commom_fncs
+
+désactivation de le ligne : //if (DebugEnabled isEqualTo 0) then {["BIS_ScreenSetup", false] call BIS_fnc_blackOut}; dans init
+
+désactivation de le ligne INS_Vehicle_Reward dans client_fncs
+
+Remise des slots Blufor d'origine pour débuguer l'init au chargement de la mission
+
+Désactivation de la ligne 766 à 771 INS_Restore_loadout
+
+MAJ 62
+
+Changement des slots blufor par des unités combat patrol Blufor
+
+MAJ 63
+
+Rajout de spot de lumière dans la grotte des OPFOR
+la porte du grillage côté ouest est verrouillée 
+Réactivation de la ligne 766 à 771 INS_Restore_loadout dans client_fncs
+Correction de classname "C_IDAP_Man_AidWorker_02_F" dans la mauvaise ligne occasionnant un meurtre racial ( enfin normalement c'est ça) dans fn_AI_unitPools
+Rajout du truck plateau et cargo 
+Respawn pour le rhino truck cargo et plateau:
+Abandonné 1 heure et destruction 30 min
+Pour le bobcat :
+Abandonné 15 min et destruction 1 min
+falqon drone à maintenant un pylon avec les hot 2 anti personnel
+
+MAJ 65
+
+Réorganisation et rajout du mod FFA
+Rajout de la classe name du reaper dans INS_Definitions
+Rajout des classes names drône FFA et désactivation des lignes addaction bail dans description
+
+MAJ 66
+
+Supression du mod FFA
+Rajout du mod FR
+Changement de l'arsenal du drone sentinelle GBU par 4 maverick
+Pour le commanche DAGR plus HOT 2 
+Rajout de défences anti air sur le porte avion
+
+MAJ 68
+
+Rajout de 2 VAB , 1 VBCI , 2 AMX plus camions de support FR
+
+MAJ 69 
+
+Supression des AMX.
+Missile infra-rouge remplacer par des guidages lasers.
+
+MAJ 70
+
+Suppression du Mirage sur l'USS FREEDOM.
+Rajout de conténaire de réarm refuel sur l'USS FREEDOM
+Rajout de 2 missiles supplémentaire SCALPEL sur les Rafal
+Rajout des classes magazines pour les scripts de destruction d'objectif : (dans server.fnc)
+ammo = "ACE_Hellfire_AGM114L";
+ammo = "ace_maverick_L";
+ammo = "ace_kh25ml";
+ammo = "ace_hot_HOT3";
+ammo = "ace_dragon_super";
+ammo = "Bo_Leaflets";
+ammo = "BombCluster_01_Ammo_F";
+ammo = "ace_dragon_super";
+ammo = "BombCluster_02_cap_Ammo_F";
+ammo = "BombCluster_02_Ammo_F";
+ammo = "BombCluster_03_Ammo_F";
+ammo = "Bo_Mk82";
+ammo = "ammo_SCALP_F";
+ammo = "M_AT";
+ammo = "M_PG_AT";
+ammo = "R_80mm_HE";
+ammo = "Rocket_03_AP_F";
+ammo = "Rocket_03_HE_F";
+ammo = "Bomb_AASM_F";
+ammo = "Rocket_04_AP_F";
+ammo = "Rocket_04_HE_F";
+ammo = "R_PG7_F";
+ammo = "M_SPG9_HE";
+ammo = "M_SPG9_HEAT";
+
+MHQ 1 Proler 12.7 , MHQ 2 VAB TOP 12.7 , MHQ 3 Caracal
+
+Temps respawn :
+RHINO UP : détruit 1 heure
+MARSHALL , PROLER , PICK UP ,VAB : détruit 1 minute
+
+V 71 
+
+Rajout du mod R3F : VBMR 12.7 et GL 40 , PVP 12.7 et PVP 7.62
+
+V 72
+
+Revue des respawns avions
+
+V 73
+
+Revue des respawns
+
+V 74
+
+Supression de la ligne de code qui permet de remplacer les pylons du AH6
+Revue des respawns
+Faire une white liste blufor et opfor !
+Rajouter class name des missiles FR pour objectifs
+
+V 75
+
+Configuration de loadout transfert pour pouvoir récupérer les loadouts de la mission
+
+V 76 
+
+Mise en place de scripts loadout BLUE and RED passant par le JIP . (Dans initplayerserver) ?
+Activation du script vehiculeaugmentation avec MAJ classe
+Modification des camos pour les véhicules blindés lourds
+Modification du MHQ OPFOR
+Rajout des sacs à dos armes statiques
+
+V 77 
+
+Suppression des mods R3F
+Revue des scripts loadout
+Désactivation de la sauvegarde ACE loadout
+Respawn configuration Camo des véhicules ! 
+Whie liste ACE mis en place
+
+V 78
+
+Revue des loadouts par défaut
+Revue de la white liste
+
+V 79 
+
+Changement des missiles AGM K par des L
+Rajout de cerflexs dans loadout opé drone
+Rajout white liste OPFOR et BLUFOR via l'arsenal ACE
+Acitvation de la sauvegarde mission
+
+MAJ V 80
+
+Rajout des piles lasers et casques OPSCORE 
+Rajout des ARM élites dans les défences objectifs
+Revue du skill IA
+
+MAJ V 81
+
+Mirage et Rafal respawn avec leurs loadouts !!!
+Revue en baisse du nombre de civil qui spawn dans la ville
+Désactiver la commande de script anti imagerie termique ( dans server_fnc)
+Désactiver la commande Op4 restore loadout (common_fnc)
+Désactiver la commande base protection ( common_fnc )
+Désactiver script fn_reinstate_sensor, donne des troubles dans le HUD du RAFAL mais le problème est à moitier régler !
+if (isServer) then {params [["_newVeh",objNull],["_oldVeh",objNull]]; 0 = [_newVeh, dynPylons10] call BMRINS_fnc_replacePylons; private _sensors = listVehicleSensors _oldVeh; 0 = [_newVeh, _oldVeh,_sensors] call BMRINS_fnc_reinstateSensors;};
+Désactiver commande UAV maintenance dans ( initserver )
+Marker player après avoir tuer un civ durée : 5 minutes (server_fnc )
+Désactivation script myhuntir et myhuntirkey
+
+V 82 
+
+Désactivation de la commande paint_heli_fnc dans ( server_fnc) et du script fn_civVehTextureGlobal
+supression des classes pickups I_C dans unitpool FIA
+Désactivation de la commande chemlihgt dans ATM
+Revue des traductions
+Fini de voir des pickup's IND en rouge !
+Désactivation des randoms textures de tout les véhicules
+Maintenant le max de zone passe à 40 meiux de 75 et restent toujours active
+
+V 84
+
+Remis les scripts EOS qui gèrent le nombre d'unité dans les villes par ceux d'origine ( gain de FPS serveur retrouvé )
+Revue des unités INDEP qui peut spawnés
+
+V 85 
+
+Revue des scripts serveur et client ( désactivation de script )
+Maintenant dans l'hélicop d'extraction il y a des gunners 
+Réactivation des scripts BMRINS_fnc_bypassVehCrashDamage et BMRINS_fnc_civVehTextureGlobal puisqu'ils sont appellaient dans d'autre script de spawn véhicule
+
+V 89
+
+Désactivation des gunners dans extrac
+Suppression du RAFAL trop buguer
+Maintenant on peut mettre la durée de zone à 1 heure par défaut 10 minutes
+if (isServer) then {params [["_newVeh",objNull],["_oldVeh",objNull]]; 0 = [_newVeh, dynPylons11] call BMRINS_fnc_replacePylons;};
+
+V 91 
+
+Revu scripts init init player fnc server
+Remis le drapeau pour les téléportations
+Durée de spawn des zones et passées de 10 à 5 minutes
+Nombre de zone qui peut spawné en même est passée de 40 à 35
+Désactiver la commande qui empêche de rentrer dans les aéronefs pour les OPFOR
+Correction du script HALO jump dû à une supression de ligne
+Revue du temps des scans des zones d'alarme , avec des départs différés pour réduire les charges serveurs 
+Désactivation des animaux poour gain de FPS client
+
+V 92 
+
+Correction du respawn mission sqm
+Réactivation de l'intro ( ce n'est pas ça )
+Réactivation du script reinstatesensors
+Réactivation du script my huntir
+Réactivation de la fonction JIG_circling
+Désactivation du script VehAug ( donne des chutes FPS serveur trop important !)
+Modification du pîckup OPFOR : pickup 12.7 
+Réactivation de la logistique ACE
+
+V 93 
+
+Réactivation des civils mobiles avec plus une grande distance d'action
+Rajout de nouveau véhicule civil
+
+V 94 
+
+Désactivation de la radio ambiance dans l'hélicop d'extraction.
+UH80 Yo dans script Extraction.
+Correction de la sync respawn module du sdv
+Loadout par défaut : de HK 417 on repasse en HK 416 avec des munitions réadaptées par yoyo
+Remis le truck médic
+Maintenant si la condition de l'objet de téléportation retourne morte , l'action est supprimée.
+Rajout de la commande pour l'Amiral de ne pas bouger
+Maintenant le mhq respawn avec son équipement
+Désactivation de la commande qui enlève les charges dans les ammocaches !
+Rajout d'une batterie drone dans l'inventaire de l'opérateur drone.
+Maintenant le coprs des joueurs reste 15 minutes avant de disparaître
+Désactivation du script minedetector
+Revue des loadouts BLUFOR et OPFOR .
+correction de traduction du script UGV support
+Rajout des optics ARCO
+Modification des MHQ 1 et 2 par des Jackal
+Désactivation de la commande : dans initserver : [180] execVM "scripts\SingleThreadCrateRefill.sqf";
+Rajout des nouveaux Pandurs 
+Activation de la descente en rappel ACE dans le : UH80 et WElcat
+Suppression des RAFAL plus réorganisation de la base
+Reamplacer l'UH80 par le Ch47 Huron
+Maintenant le sapeur peut se faire livrer une caisse de ravitaillment pour véhicule !
+Maintenant le medic peut se faire livré une ammobox
+Rajout du kestrel dans les loadouts par défaut
+Désactivation de la commande setgridterrain qui causée les bugs terrains
+Désactivation de la commande Halop jump dans initplayer
+Nouveau bâtiment centrale électrique qui une fois détruite éteint tout la carte
+activation de le fontion Op4_spawn_pos dans init.player , mais modification de le fonction empéchant la téléportation du joueur OPFOR
+désactivation de la commande de déclenchement des IEDS dans le script JidIED
+désactivation de la commande de mettre des armes statiques sur des toits dans spawn_Op4_StatDefg
+Amélioration : remplacer la commande toLower par toLowerANSI rendant le calcul 3 fois plus rapide
+
+
+
+V 94.1
+
+Amélioration des sons suicide bomber et villes !
+temps de respawn : 	Trucks logistiques, Drones et avions de chasses 15 minutes
+			Nemmera 5 minutes
+			V 44 5 minutes
+Amélioration des sons de la mosquée plus les lumières.
+Rajout de la commande pour l'Imam de ne pas bouger
+Maintenant le mhq respawn avec son équipement
+Désactivation de la commande qui enlève les charges dans les ammocaches !
+Rajout d'une batterie drone dans l'inventaire de l'opérateur drone.
+Maintenant le coprs des joueurs reste 15 minutes avant de disparaître
+Désactivation du script minedetector
+Revue des loadouts BLUFOR et OPFOR .
+correction de traduction du script UGV support
+Rajout des optics ARCO
+Modification des MHQ 1 et 2 par des Jackal
+Désactivation de la commande : dans initserver : [180] execVM "scripts\SingleThreadCrateRefill.sqf";
+Rajout des nouveaux Pandurs 
+Activation de la descente en rappel ACE dans le : UH80 et WElcat
+Suppression des RAFAL plus réorganisation de la base 
+Reamplacer l'UH80 par le Ch47 Huron
+Revue du script HALO Jump !
+Maintenant le medic peut se faire livré une ammobox
+Rajout du kestrel dans les loadouts par défaut
+Désactivation de la commande setgridterrain qui causée les bugs terrains
+Correction des sons !
+Désactivation de la commande Halop jump dans initplayer
+Nouveau bâtiment centrale électrique qui une fois détruite éteint tout la carte
+Et revu de la side mission convoy 
+Temps de respawn des drones : 
+_ détruits 30 minutes
+_ abandonnés 60 minutes
+avions :
+_ détruits 30 minutes
+Hélicoptères :
+_ armés 30 minutes
+_ non armés 15 minutes
+tout les MHQ :
+_ détruits 0.01 seconde
+_ abandonnés 10 heures 
+Maintenant il faut 5 minutes avant que la zone R R R
+Désactivation de le fontion Op4_spawn_pos dans init.player
+Revoir les sirènes de la mosquée pour en mettre qu'une dans commun.func
+activation de le fontion Op4_spawn_pos dans init.player , mais modification de le fonction empéchant la téléportation du joueur OPFOR
+désactivation de la commande de déclenchement des IEDS dans le script JidIED
+désactivation de la commande de mettre des armes statiques sur des toits dans spawn_Op4_StatDef
+désactivation du script et de la fonction INS_aiHalo dans client_fncs
+Amélioration : remplacer la commande toLower par toLowerANSI rendant le calcul 3 fois plus rapide
+Supression total des scripts : ATM airdrop \ INSui \ ASORVS \ JWC_CASFS
+
+
+V 94.2 Chernarus 2020
+
+Déclarer les bons bâtiments pour l'ammocache
+Faire respawn les véhicules à la bonne hauteur en passant par le module sur les ships
+Déclarer les bons markers dans la logique
+Amélioration : remplacer la commande toLower par toLowerANSI rendant le calcul 3 fois plus rapide
+Pour pouvoir dédecter la map il fallait supprimer la commande toLowerANSI dans INS_definitions
+Problème avec un script ou commande qui tourne en boucle donnant des sacades !!!
+
+A TESTER
+
+Avec du monde !
+
+whitelist arsenal : Minimi MK2 Para "yo_minimi_556"+  200rnd 5.56 M855A1 EPR "yo_DGR_224_SS109_200Rnd" + 200rnd 5.56 M855A1 EPR Traçantes "yo_DGR_224_SS109_200Rnd_t"
+
+Pour Yoyo :
+Rajouter des grenades aux insurgés fait
+Textures Pandur insugés fait
+Rajouter chargeur HK 417
+
